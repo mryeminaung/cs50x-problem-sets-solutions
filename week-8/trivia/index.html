@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+			rel="stylesheet" />
+		<link
+			href="styles.css"
+			rel="stylesheet" />
+		<title>Trivia!</title>
+	</head>
+
+	<body>
+		<div class="header">
+			<h1>Trivia!</h1>
+		</div>
+
+		<div class="container">
+			<div class="section">
+				<h2>Part 1: Multiple Choice</h2>
+				<hr />
+				<h3>
+					When using React, which hook is specifically designed to handle side
+					effects that require access to the DOM before the browser has a chance
+					to paint the screen?
+				</h3>
+				<div class="alert-box">
+					<span class="incorrect-alert">Incorrect</span>
+					<span class="correct-alert">Correct!</span>
+				</div>
+
+				<button class="btn btn1">useEffect</button>
+				<button class="btn btn2">useMemo</button>
+				<button class="btn btn3">useLayoutEffect</button>
+				<button class="btn btn4">useCallback</button>
+				<button class="btn btn5">useImperativeHandle</button>
+				<!-- Correct Ans => useLayoutEffect -->
+			</div>
+
+			<div class="section">
+				<h2>Part 2: Free Response</h2>
+				<hr />
+				<h3>
+					Which method is used in a Laravel model to define a "many-to-many"
+					relationship?
+				</h3>
+				<div class="alert-box">
+					<span class="free-incorrect-alert">Incorrect</span>
+					<span class="free-correct-alert">Correct!</span>
+				</div>
+
+				<form id="free-response">
+					<input
+						type="text"
+						name="ans"
+						placeholder="Type your answer here..."
+						autocomplete="off"
+						id="ans-input" />
+					<button
+						style="cursor: pointer"
+						type="submit">
+						Check Answer
+					</button>
+				</form>
+			</div>
+		</div>
+
+		<script src="./index.js"></script>
+	</body>
+</html>

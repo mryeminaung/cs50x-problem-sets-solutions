@@ -1,0 +1,22 @@
+.active {
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: blue;
+    color: white !important;
+}
+
+.navbar {
+    padding-bottom: 10px;
+}
+
+.navbar-brand {
+    margin-top: 3px;
+}
+
+#navbarNav {
+    margin-top: 3px;
+}
+
+.nav-link {
+    text-align: center;
+}

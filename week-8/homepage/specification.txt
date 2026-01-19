@@ -1,0 +1,30 @@
+HTML Tags Used
+==============
+Here are 10 HTML tags that were used across the project's HTML files (index.html, about.html, contact-me.html, skills.html):
+
+<html> - Defines the root element of an HTML document.
+<head> - Contains meta-information about the document, such as links to stylesheets.
+<title> - Sets the title of the webpage displayed in the browser tab.
+<body> - Contains the visible content of the webpage.
+<nav> - Defines a navigation section, used for the site's menu.
+<div> - A generic container for grouping content and applying styles.
+<a> - Creates hyperlinks to other pages or external sites.
+<ul> - Defines an unordered list, used for navigation items and skills.
+<li> - Represents a list item within <ul> or <ol>.
+<h1> - Defines the main heading of a section.
+
+CSS Properties Used
+===================
+Here are 5 CSS properties that were used in styles.css:
+
+font-weight - Controls the thickness of text, set to bold for active navigation links.
+border-radius - Rounds the corners of elements, applied to active links for styling.
+background-color - Sets the background color, used for highlighting active navigation items.
+color - Defines the text color, overridden for active links to ensure visibility.
+margin-top - Adds space above elements, used to adjust positioning of navbar components.
+
+JavaScript and Bootstrap Usage
+==============================
+
+JavaScript was used to add interactivity to the contact form by preventing default submission and displaying a delayed thank-you alert after 3 seconds. Bootstrap was integrated via CDN to provide responsive design components like navigation bars, cards, and layout grids for a clean, mobile-friendly interface.
+

@@ -16,6 +16,7 @@ CS50x is a legendary introductory course that covers the robust fundamentals of 
 The solutions are organized by week, corresponding to the course curriculum:
 
 - **[Week 1](./week-1):** C
+- **[Week 6](./week-6):** Python.
 - **[Week 7](./week-7):** SQL.
 - **[Week 8](./week-8):** Web Development (HTML, CSS, and JavaScript).
 - _(Note: More weeks will be added as I progress!)_

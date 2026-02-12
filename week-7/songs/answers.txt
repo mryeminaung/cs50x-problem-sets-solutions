@@ -1,0 +1,17 @@
+SELECT
+    ROUND(AVG(energy), 3) AS avg_energy,
+    ROUND(AVG(valence), 3) AS avg_valence,
+    ROUND(AVG(danceability), 3) AS avg_danceability
+FROM songs;
+
+Audio Aura Characterization
+---------------------------
+The listener’s average energy is 0.659, valence is 0.484, and danceability is 0.716. This suggests an energetic and highly danceable music preference with a mostly neutral emotional tone. The listener appears to favor rhythmic, lively songs that are not strongly happy or sad.
+
+Limitations
+-----------
+Using simple averages may not accurately represent the listener’s taste because it hides variation among songs. The listener may enjoy both very positive and very melancholic tracks, but the average suggests neutrality. Additionally, this method treats all songs equally and ignores other features such as tempo or loudness.
+
+A Better Approach
+---------------
+A better approach would include analyzing the distribution of values, weighting songs by play frequency, and incorporating additional audio features. Clustering songs into mood categories would also provide a more accurate representation of the listener’s audio aura.

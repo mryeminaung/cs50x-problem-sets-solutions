@@ -6,6 +6,7 @@ Welcome to my repository containing solutions for **CS50x: Introduction to Compu
 
 CS50x is a legendary introductory course that covers the robust fundamentals of computer science and programming. Topics include:
 
+- **Scratch**
 - **C programming** (Memory management, data structures, and algorithms)
 - **Python**
 - **SQL** (Database management)
@@ -16,10 +17,11 @@ CS50x is a legendary introductory course that covers the robust fundamentals of 
 The solutions are organized by week, corresponding to the course curriculum:
 
 - **[Week 1](./week-1):** C
-- **[Week 6](./week-6):** Python.
-- **[Week 7](./week-7):** SQL.
-- **[Week 8](./week-8):** Web Development (HTML, CSS, and JavaScript).
-- **[Week 9](./week-9):** Flask.
+- **[Week 2](./week-2):** Arrays
+- **[Week 6](./week-6):** Python
+- **[Week 7](./week-7):** SQL
+- **[Week 8](./week-8):** Web Development (HTML, CSS, and JavaScript)
+- **[Week 9](./week-9):** Flask
 - _(Note: More weeks will be added as I progress!)_
 
 ## How to Use
